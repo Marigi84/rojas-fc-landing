@@ -83,4 +83,49 @@ Se trabajó especialmente el comportamiento del header, el logo, las tarjetas y 
 Clonar el repositorio:
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone (https://github.com/Marigi84/rojas-fc-landing.git)
+
+Ingresar a la carpeta del proyecto:
+
+cd rojas-fc
+
+Instalar dependencias:
+
+npm install
+
+Ejecutar en modo desarrollo:
+
+npm run dev
+
+Abrir en el navegador:
+
+http://localhost:5173/
+📦 Generar versión de producción
+
+Para compilar el proyecto:
+
+npm run build
+
+La versión final se genera en la carpeta:
+
+dist
+🧪 Estado del proyecto
+
+Proyecto en versión inicial funcional.
+
+Incluye las secciones principales de una landing page institucional y está preparado para ser usado como proyecto de portfolio.
+
+🔮 Mejoras futuras
+Agregar formulario de preinscripción funcional.
+Incorporar panel de administración.
+Conectar con una base de datos.
+Agregar sistema de novedades dinámicas.
+Mejorar la gestión de galería mediante CMS o Cloudinary organizado.
+Implementar animaciones suaves.
+Optimizar SEO y metadatos.
+Publicar en Vercel o Netlify.
+👩‍💻 Desarrollado por
+
+Marina Giselle Cordero
+
+Proyecto desarrollado como práctica frontend con React, Vite y TypeScript.
