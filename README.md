@@ -1,32 +1,86 @@
-# React + TypeScript + Vite
+# Escuela de Fútbol Rojas FC
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Landing page institucional desarrollada para **Escuela de Fútbol Rojas FC**, una escuela de fútbol infantil y juvenil ubicada en Córdoba, Argentina.
 
-Currently, two official plugins are available:
+El objetivo del sitio es presentar la propuesta deportiva y formativa de la escuela, mostrar sus actividades, horarios, galería de imágenes, ubicación y facilitar el contacto con familias interesadas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Descripción del proyecto
 
-## React Compiler
+Este proyecto consiste en una página web tipo landing page para una escuela de fútbol.  
+La web busca transmitir una identidad deportiva, familiar y formativa, destacando el lema principal:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> Educamos a través del deporte.
 
-## Expanding the Oxlint configuration
+Además, la página comunica la propuesta de valor de la escuela:
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+> Más que una escuela de fútbol, formamos valores, amistades y pasión por el deporte.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## 🎯 Objetivo
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+El objetivo principal del sitio es:
+
+- Presentar institucionalmente a Rojas FC.
+- Informar edades, horarios y actividades.
+- Mostrar la experiencia de la escuela mediante imágenes.
+- Facilitar el contacto por WhatsApp.
+- Fortalecer la presencia digital de la escuela.
+- Servir como proyecto demostrativo para portfolio frontend.
+
+## 🧩 Secciones principales
+
+La landing page incluye:
+
+- Header con navegación.
+- Hero principal con imagen institucional.
+- Sección “La Escuela”.
+- Categorías y horarios.
+- Actividades y experiencias deportivas.
+- Galería de imágenes.
+- Contacto y ubicación.
+- Botón flotante de WhatsApp.
+- Footer institucional.
+
+## ⚽ Actividades destacadas
+
+El sitio muestra las principales actividades de la escuela:
+
+- Participación en Liga LIEF.
+- Copa Challenger.
+- Mundialito.
+- Gira deportiva a Buenos Aires.
+- Campamento de cierre de año.
+- Actividades con participación de las familias.
+
+## 🛠️ Tecnologías utilizadas
+
+- React
+- Vite
+- TypeScript
+- CSS
+- Cloudinary para alojamiento de imágenes
+
+## 📱 Diseño responsive
+
+El sitio fue diseñado para adaptarse a distintos tamaños de pantalla:
+
+- Computadoras de escritorio.
+- Tablets.
+- Celulares.
+
+Se trabajó especialmente el comportamiento del header, el logo, las tarjetas y las secciones visuales en pantallas pequeñas.
+
+## 📍 Datos institucionales
+
+**Nombre:** Escuela de Fútbol Rojas FC  
+**Edades:** niños, niñas y jóvenes de 4 a 16 años  
+**Entrenamientos:** miércoles y viernes de 18:00 a 20:00 hs  
+**Sábados:** participación en Liga LIEF  
+**Ubicación:** Av. Ricardo Rojas 8473, Córdoba, Argentina  
+**Instagram:** @rojas_futbol_club  
+
+## 🚀 Cómo ejecutar el proyecto
+
+Clonar el repositorio:
+
+```bash
+git clone URL_DEL_REPOSITORIO
