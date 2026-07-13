@@ -4,6 +4,10 @@ Landing page institucional desarrollada para **Escuela de Fútbol Rojas FC**, un
 
 El objetivo del sitio es presentar la propuesta deportiva y formativa de la escuela, mostrar sus actividades, horarios, galería de imágenes, ubicación y facilitar el contacto con familias interesadas.
 
+## 🌐 Sitio publicado
+
+🔗 [Ver sitio en producción](https://rojas-fc-landing.vercel.app)
+
 ## 🌐 Descripción del proyecto
 
 Este proyecto consiste en una página web tipo landing page para una escuela de fútbol.  
@@ -128,4 +132,4 @@ Publicar en Vercel o Netlify.
 
 Marina Giselle Cordero
 
-Proyecto desarrollado como práctica frontend con React, Vite y TypeScript.
+
